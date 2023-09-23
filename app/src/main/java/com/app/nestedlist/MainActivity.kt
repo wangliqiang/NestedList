@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.RecyclerView
 import com.app.nestedlist.adapter.CommentAdapter
+import com.app.nestedlist.databinding.ActivityMainBinding
 import com.app.nestedlist.logic.FoldReducer
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
