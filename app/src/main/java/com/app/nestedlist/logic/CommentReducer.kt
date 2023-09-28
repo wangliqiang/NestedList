@@ -137,7 +137,7 @@ class ReplyReducer(private val commentItem: CommentItem, private val context: Co
 
 }
 
-class ReplyDialog(val context: Context, private val callback: (String) -> Unit) : Dialog(context) {
+class ReplyDialog(private val context: Context, private val callback: (String) -> Unit) : Dialog(context) {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.dialog_reply)
